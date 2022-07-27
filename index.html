@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,35 +9,53 @@
     <link rel="stylesheet" href="css/mi_estilo.css">
     <title>mi portfolio</title>
 </head>
-<body>
-    <header >
-        <img class="imagen_header" src="/image/nevado_amanece.JPG" alt="imagen del back del header">
 
+<body>
+    <header>
+        <div class="col imagen_header">
+            <img class="logo"
+                src="//argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1657411642/APLogo-20-20.png"
+                alt="argpprod">
+            <!--<img class="imagen_header" src="/image/nevado_amanece.JPG" alt="imagen del background del header"> -->
+        </div>
     </header>
     <div class="row">
 
-    
-        <div class="col-2">
-            <img class="card-image foto_perfil" src="image/perfil.JPG" alt="foto de perfil">
+
+        <div class="col-1">
+            <img class="card-image foto_perfil foto" src="image/perfil.JPG" alt="foto de perfil">
         </div>
         <div class="col-4">
             <br>
-            <h3>nombre</h3>
+            <h3>Nombre</h3>
             <h3 class="text-primary" name="perfil">Gustavo Torti</h3>
         </div>
     </div>
     <div class="row">
 
-    
-        <div class="col-2">
+
+        <div class="col-1">
             <img class="card-image foto_perfil" src="image/guitarra.jpeg" alt="título">
         </div>
         <div class="col-4">
             <br>
             <h3>Título</h3>
-            <h5 class="text-alert" name="titulo">Programador web full stack jr</h5>
+            <h5 class="text-secondary" name="titulo">Programador web full stack jr</h5>
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div class="col-1">
+            <img class="card-image foto_perfil" src="image/rosa_roja.jpg" alt="experiencia">
+        </div>
+        <div class="col-4">
+            <br>
+            <h3>Experiencia</h3>
+            <h5 class="text-secondary" name="titulo">Aquí va toda la experiencia</h5>
         </div>
     </div>
     <script lang="javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
